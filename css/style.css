@@ -372,6 +372,8 @@ input:checked ~ label .radio::after {
 	width: 25px;
 	height: 5px;
 	left:0;
+	top:50%;
+	transform:translate(-50%);
 }
 
 .header-nav .m-nav-btn-icon{
@@ -382,12 +384,14 @@ input:checked ~ label .radio::after {
 	content: '';
 	position: absolute;
 	top: -10px;
+	transform:initial;
 }
 
 .header-nav .m-nav-btn-icon::after{
 	content: '';
 	position:absolute;
 	top: 10px;
+	transform:initial;
 }
 
 .header-nav .nav-btn{
