@@ -373,7 +373,7 @@ input:checked ~ label .radio::after {
 	height: 5px;
 	left:0;
 	top:50%;
-	transform:translate(-50%);
+	transform:translateY(-50%);
 }
 
 .header-nav .m-nav-btn-icon{
